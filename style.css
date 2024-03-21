@@ -1,0 +1,37 @@
+body{
+    display: flex;
+    flex-direction: column;
+    font-weight:bold ;
+    font-family: sans-serif,serif;
+    margin: 0 ;
+    align-items: center;
+
+}
+h1{
+    font-size: 3rem;
+    
+}
+.choices{
+    margin-top: 30px;
+}
+.choices button{
+   font-size: 6.5rem;
+   min-width: 160px;
+   margin: 10px 10px;
+   border-radius: 250px;
+   cursor: pointer;
+   
+}
+.choices button:hover{
+    background-color: rgb(24, 240, 71);
+
+}
+#PlayerInfo,#ComputerInfo{
+    font-size: 3rem;
+    margin: 20px 20px;
+
+}
+#ResultDisplay{
+    font-size: 4rem;
+    margin: 20px 0;
+}
